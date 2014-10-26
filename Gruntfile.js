@@ -27,6 +27,14 @@ module.exports = function (grunt) {
   // Define the configuration for all the tasks
   grunt.initConfig({
 
+    // gh-pages task
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    },
+
     // Project settings
     yeoman: appConfig,
 
@@ -63,12 +71,6 @@ module.exports = function (grunt) {
           '.tmp/styles/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
-      },
-      'gh-pages': {
-        options: {
-          base: 'dist'
-        },
-        src: ['**']
       }
     },
 
