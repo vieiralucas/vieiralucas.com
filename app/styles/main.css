@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background: #EDEDED;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #428BCA;
+}
+
+header {
+    background: #26A65B;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    float: left;
+    width: 30%;
+    text-align: center;
+    color: #FFF;
+    -webkit-animation-name: slidein;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: slidein;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-in-out;
+    -ms-animation-name: slidein;
+    -ms-animation-duration: 1s;
+    -ms-animation-timing-function: ease-in-out;
+    -o-animation-name: slidein;
+    -o-animation-duration: 1s;
+    -o-animation-timing-function: ease-in-out;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    border-radius: 50%;
+    margin: 1em 0;
+    width: auto;
+    height : auto;
+    max-height: 35%;
+}
+
+.menu {
+    padding: .5em 0 0 0;
+}
+
+
+.menu-item {
+    margin: 1em auto;
+    width: 60%;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #1E824C;
+}
+
+.menu-link {
+    padding: 0.5em 0;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu-link:hover {
+    background-color: #1E824C; 
+}
+
+.contact {
+    list-style: none;
+    display: table;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.contact li {
+    margin: 0;
+    display: inline-block;
+    font-size: 1em;
+    width: 10%;
+}
+
+.contact li a {
+    border-radius: 10%;
+    padding: 0.5em 0;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact li a:hover {
+    background-color: #1E824C;
+}
+
+section {
+    position: relative;
+    margin-left: 30%;
+    padding: 2% 2% 0 5%;
+}
+
+.tabs {
+    list-style: none;
+    display: table;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.tabs li {
+    text-align: center;
+    margin: 1%;
+    display: inline-block;
+    font-size: 1em;
+    width: 15%
+}
+
+.tabs a {
+    padding: .3em .3em;
+    color: #000;
+}
+
+.tabs a:hover {
+    background-color: #DDD;
+}
+
+.tabs .active {
+    background-color: #DDD;
+}
