@@ -24,13 +24,13 @@
             "title" : "League Comparer",
             "description" : "Simple League of Legends web application which compares two player's status. This project uses the official League of Legends API.",
             "href" : "http://lucasfcosta.github.io/league-comparer/#/",
-            "img" : "images/league-comparer.png"
+            "img" : "images/league-comparer.jpg"
         },
         {
             "title" : "Free Chat",
             "description" : "A chat application built using AngularJS, firebase and twitter bootstrap.",
             "href" : "https://vieiralucas-freechat.firebaseapp.com/",
-            "img" : "images/free-chat.png"
+            "img" : "images/free-chat.jpg"
         }
     ],
     "games" : [
@@ -38,13 +38,13 @@
             "title" : "Flappy Pong",
             "description" : "Following the Flappy Bird hype, I decided to create my own version of this addictive game. So I mixed the original idea with the  classical pong game. The app is made using cocoonJS framework by Ludei which is an awesome way of converting your HTML5 canvas games into native apps for almost every mobile platform in the market.",
             "href" : "https://play.google.com/store/apps/details?id=vieiralucas.com.flappypong",
-            "img" : "images/flappy-pong.png"
+            "img" : "images/flappy-pong.jpg"
         },
         {
             "title" : "15 Puzzle",
             "description" : "The 15 puzzle consists in rearrange the squares in ascending order. To play click on the square you want to move. The game is made using HTML5 canvas and javascript.",
             "href" : "#/15-puzzle",
-            "img" : "images/15-puzzle.png"
+            "img" : "images/15-puzzle.jpg"
         }
     ],
     "others" : [
@@ -52,7 +52,7 @@
             "title" : "Learnyounode - Tradução PT-BR",
             "description" : "Tradução do workshop Learnyounode da NodeSchool para português brasileiro.",
             "href" : "https://github.com/lucasfcosta/learnyounode-pt-br",
-            "img" : "images/learnyounodeptbr.png"
+            "img" : "images/learnyounodeptbr.jpg"
         }
     ]
 }
