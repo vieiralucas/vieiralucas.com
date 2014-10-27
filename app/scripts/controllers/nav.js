@@ -10,7 +10,6 @@
 angular.module('vieiralucascomApp')
   .controller('NavCtrl', function ($scope, $location) {
     $scope.isActive = function(path) {
-        console.log($location.path());
         if($location.path() === path) {
             return true;
         }

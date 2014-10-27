@@ -13,4 +13,20 @@
             <a ng-class="{active: isActive('others')}" ng-click="changeTab('others')" href>Others</a>
         </li>
     </ul>
+
+    <hr>
+
+    <ul class="projects">
+        <li class="project-item" ng-repeat="project in projectsSelecionados">
+                <div class="thumbnail">
+                    <a ng-href="{{project.href}}" target="_blank">
+                        <img ng-src="{{project.img}}" alt="">
+                        <div class="caption">
+                            <h3>{{project.title}}</h3>
+                            <p>{{project.description}}</p>
+                        </div>
+                    </a>
+                </div>
+        </li>
+    </ul>
 </section>
