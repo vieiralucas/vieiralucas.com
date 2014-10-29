@@ -10,6 +10,10 @@ a {
     color: #428BCA;
 }
 
+a:hover {
+    color: #125B9A;
+}
+
 header {
     background: #26A65B;
     position: fixed;
@@ -61,6 +65,7 @@ header img {
 }
 
 .menu-link:hover {
+    color: #FFF !important;
     background-color: #1E824C; 
 }
 
@@ -163,4 +168,13 @@ section {
 
 .thumbnail h3 p {
     padding: 1em 1em 0 1em;
+}
+
+.thumbnail p a {
+    text-decoration: none;
+    color: #428BCA;
+}
+
+.thumbnail p a:hover {
+    color: #125B9A;
 }
