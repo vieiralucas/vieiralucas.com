@@ -11,7 +11,7 @@ angular.module('vieiralucascomApp')
   .controller('ProjectsCtrl', function ($scope) {
     
     // controla as tabs
-    $scope.tabActive = 'node';
+    $scope.tabActive = 'javascript';
     $scope.isActive = function(tab) {
         return tab === $scope.tabActive;
     };
@@ -26,12 +26,12 @@ angular.module('vieiralucascomApp')
 
     $.getJSON('projects.json', function(data) {
         $scope.projects = {
-            'node': data.node,
+            'javascript': data.javascript,
             'webapps': data.webapps,
             'games': data.games,
             'others': data.others
         };
-        $scope.projectsSelecionados = $scope.projects.node;
+        $scope.projectsSelecionados = $scope.projects.javascript;
         $scope.$apply();
     });
   });
