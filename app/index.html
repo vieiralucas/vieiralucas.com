@@ -22,7 +22,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header class="slidein">
+    <header class="header slidein">
       <img src="images/avatar.jpg" alt="">
       <h1>LUCAS VIEIRA</h1>
       <nav ng-controller="NavCtrl">
@@ -44,7 +44,20 @@
       </ul>
   </header>
 
-  <div ng-view></div>
+  <nav class="collapse" ng-controller="NavCtrl">
+    <h1>LUCAS VIEIRA</h1> 
+    <div class="menuicon"><a href ng-click="showMenu = !showMenu"><i class="fa fa-align-justify"></i></a></div>
+    <ul class="menu dropdown" ng-show="showMenu">
+      <li class="menu-item">
+        <a ng-click="showMenu = false" ng-class="{ active: isActive('/') }" class="menu-link" href="#/home">Home</a>
+      </li>
+      <li class="menu-item">
+        <a ng-click="showMenu = false" ng-class="{ active: isActive('/projects') }" class="menu-link" href="#/projects">Projects</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="content" ng-view></div>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

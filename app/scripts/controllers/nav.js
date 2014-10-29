@@ -15,4 +15,6 @@ angular.module('vieiralucascomApp')
         }
         return false;
     };
+
+    $scope.showMenu = false;
   });

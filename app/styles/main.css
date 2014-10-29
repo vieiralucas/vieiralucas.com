@@ -14,7 +14,7 @@ a:hover {
     color: #125B9A;
 }
 
-header {
+.header {
     background: #26A65B;
     position: fixed;
     top: 0;
@@ -26,16 +26,16 @@ header {
     color: #FFF;
 }
 
-header h1 {
+.header h1 {
     margin: 0;
 }
 
-header img {
+.header img {
+    max-width: 100%; 
+    display:block; 
+    height: auto;
     border-radius: 50%;
-    margin: 1em 0;
-    width: auto;
-    height : auto;
-    max-height: 35%;
+    margin: 1em auto;
 }
 
 .menu {
@@ -98,7 +98,7 @@ header img {
     background-color: #1E824C;
 }
 
-section {
+.content {
     position: relative;
     margin-left: 30%;
     padding: 2% 2% 0 5%;
@@ -177,4 +177,73 @@ section {
 
 .thumbnail p a:hover {
     color: #125B9A;
+}
+
+.collapse {
+    display: none;  
+    background: #26A65B;
+    text-align: center;
+    color: #FFF;
+}
+
+.collapse h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+.menuicon {
+    display: inline-block;
+    right: 0;
+    float: right;
+}
+
+.menuicon a {
+    padding: 0 .4em;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.menuicon a:hover {
+    background: #1E824C;
+}
+
+.collapse .menu {
+    margin: .5em 0;
+    padding: 0;
+}
+
+
+.collapse .menu-item {
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.collapse .menu-link {
+    padding: 0.5em 0;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media (max-width: 900px) {
+    
+    .header {
+        display: none;
+    }
+
+    .collapse {
+        display: block;
+    }
+
+    .content {
+        position: relative;
+        margin: 2%;
+        padding: 2% 2%;
+    }
 }
