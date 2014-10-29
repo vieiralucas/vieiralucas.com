@@ -42,7 +42,7 @@
     "games" : [
         {
             "title" : "Damas",
-            "description" : "An implementation of checkers that I did as a challenge to Chaordic Systems selection process.",
+            "description" : "An implementation of checkers that I did as a challenge to <a href=\"https://www.chaordic.com.br/\" target=\"_blank\">Chaordic Systems</a> selection process.",
             "href" : "http://vieiralucas.github.io/damas",
             "img" : "images/damas.jpg"
         },
