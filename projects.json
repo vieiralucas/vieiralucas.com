@@ -1,5 +1,11 @@
 {
-    "node" : [
+    "javascript" : [
+        {
+            "title" : "jquery-nodeico",
+            "description" : "A jQuery plugin to display your Node Modules on NPM.",
+            "href" : "https://github.com/vieiralucas/jquery-nodeico",
+            "img" : "https://nodei.co/npm/jquery-nodeico.png?downloads=true&&downloadRank=true&stars=true"  
+        },
         {
             "title" : "lolcommits-upload",
             "description" : "Upload your lolcommits to image hosts.",
@@ -35,6 +41,12 @@
     ],
     "games" : [
         {
+            "title" : "Damas",
+            "description" : "An implementation of checkers that I did as a challenge to Chaordic Systems selection process.",
+            "href" : "http://vieiralucas.github.io/damas",
+            "img" : "images/damas.jpg"
+        },
+        {
             "title" : "Flappy Pong",
             "description" : "Following the Flappy Bird hype, I decided to create my own version of this addictive game. So I mixed the original idea with the  classical pong game. The app is made using cocoonJS framework by Ludei which is an awesome way of converting your HTML5 canvas games into native apps for almost every mobile platform in the market.",
             "href" : "https://play.google.com/store/apps/details?id=vieiralucas.com.flappypong",
@@ -43,7 +55,7 @@
         {
             "title" : "15 Puzzle",
             "description" : "The 15 puzzle consists in rearrange the squares in ascending order. To play click on the square you want to move. The game is made using HTML5 canvas and javascript.",
-            "href" : "#/15-puzzle",
+            "href" : "http://vieiralucas.github.io/15-puzzle",
             "img" : "images/15-puzzle.jpg"
         }
     ],
