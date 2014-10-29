@@ -22,26 +22,26 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header>
-    <img src="images/avatar.jpg" alt="">
-    <h1>LUCAS VIEIRA</h1>
-    <nav ng-controller="NavCtrl">
-      <ul class="menu">
-        <li class="menu-item">
-          <a ng-class="{ active: isActive('/') }" class="menu-link" href="#/home">Home</a>
-        </li>
-        <li class="menu-item">
-          <a ng-class="{ active: isActive('/projects') }" class="menu-link" href="#/projects">Projects</a>
-        </li>
+    <header class="slidein">
+      <img src="images/avatar.jpg" alt="">
+      <h1>LUCAS VIEIRA</h1>
+      <nav ng-controller="NavCtrl">
+        <ul class="menu">
+          <li class="menu-item">
+            <a ng-class="{ active: isActive('/') }" class="menu-link" href="#/home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a ng-class="{ active: isActive('/projects') }" class="menu-link" href="#/projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="contact">
+        <li><a href="https://github.com/vieiralucas" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="mailto:vieiralucas4@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a href="https://www.linkedin.com/pub/lucas-vieira/a4/1/1ba" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/lucas.vieira.1297" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://plus.google.com/114582114858367117426" target="_blank"><i class="fa fa-google-plus"></i></a></li>
       </ul>
-    </nav>
-    <ul class="contact">
-      <li><a href="https://github.com/vieiralucas" target="_blank"><i class="fa fa-github"></i></a></li>
-      <li><a href="mailto:vieiralucas4@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
-      <li><a href="https://www.linkedin.com/pub/lucas-vieira/a4/1/1ba" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-      <li><a href="https://www.facebook.com/lucas.vieira.1297" target="_blank"><i class="fa fa-facebook"></i></a></li>
-      <li><a href="https://plus.google.com/114582114858367117426" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-    </ul>
   </header>
 
   <div ng-view></div>

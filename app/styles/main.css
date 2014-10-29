@@ -20,18 +20,6 @@ header {
     width: 30%;
     text-align: center;
     color: #FFF;
-    -webkit-animation-name: slidein;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-name: slidein;
-    -moz-animation-duration: 1s;
-    -moz-animation-timing-function: ease-in-out;
-    -ms-animation-name: slidein;
-    -ms-animation-duration: 1s;
-    -ms-animation-timing-function: ease-in-out;
-    -o-animation-name: slidein;
-    -o-animation-duration: 1s;
-    -o-animation-timing-function: ease-in-out;
 }
 
 header h1 {
