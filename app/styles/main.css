@@ -152,12 +152,15 @@ section {
     margin: auto;
 }
 
+.thumbnail a {
+    color: #333;
+}
+
 .thumbnail a:hover {
     color: #333;
     text-decoration: underline;
 }
 
-.caption {
-    padding: 1em;
-    color: #333;
+.thumbnail h3 p {
+    padding: 1em 1em 0 1em;
 }
