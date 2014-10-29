@@ -231,6 +231,16 @@ a:hover {
     color: #FFF;
 }
 
+.collapse .contact {
+    position: fixed;
+    height: 1em;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background: #26A65B;
+}
+
 @media (max-width: 900px) {
     
     .header {
@@ -245,5 +255,9 @@ a:hover {
         position: relative;
         margin: 2%;
         padding: 2% 2%;
+    }
+
+    body {
+        margin-bottom: 1em;
     }
 }
