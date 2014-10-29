@@ -48,7 +48,7 @@
         },
         {
             "title" : "Flappy Pong",
-            "description" : "Following the Flappy Bird hype, I decided to create my own version of this addictive game. So I mixed the original idea with the  classical pong game. The app is made using cocoonJS framework by Ludei which is an awesome way of converting your HTML5 canvas games into native apps for almost every mobile platform in the market.",
+            "description" : "Following the Flappy Bird hype, I decided to create my own version of this addictive game. So I mixed the original idea with the  classical pong game. The app is made using cocoonJS framework by <a href=\"https://www.ludei.com/\" target=\"_blank\">Ludei</a> which is an awesome way of converting your HTML5 canvas games into native apps for almost every mobile platform in the market.",
             "href" : "https://play.google.com/store/apps/details?id=vieiralucas.com.flappypong",
             "img" : "images/flappy-pong.jpg"
         },
