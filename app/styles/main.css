@@ -144,7 +144,6 @@ a:hover {
 .thumbnail {
     background: #F8F8F8;
     display: block;
-    border: 1px solid #DDD;
     padding: 1em;
     margin: 1em auto;
     border: solid .1em #999;
