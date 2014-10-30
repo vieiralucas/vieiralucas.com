@@ -117,11 +117,11 @@ a:hover {
     margin: 1%;
     display: inline-block;
     font-size: 1em;
-    width: 15%
+    width: 22%
 }
 
 .tabs a {
-    padding: .3em .3em;
+    padding: 1% 1%;
     color: #000;
 }
 
@@ -146,7 +146,7 @@ a:hover {
     display: block;
     border: 1px solid #DDD;
     padding: 1em;
-    margin: 1em 10% 1em auto;
+    margin: 1em auto;
     border: solid .1em #999;
 }
 
@@ -243,6 +243,10 @@ a:hover {
 
 @media (max-width: 900px) {
     
+    body {
+        margin-bottom: 1em;
+    }
+
     .header {
         display: none;
     }
@@ -257,7 +261,11 @@ a:hover {
         padding: 2% 2%;
     }
 
-    body {
-        margin-bottom: 1em;
+}
+
+@media (max-width: 490px) {
+    .tabs li {
+        text-align: left;
+        display: block;
     }
 }
