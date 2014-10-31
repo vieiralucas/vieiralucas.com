@@ -55,7 +55,7 @@
         {
             "title" : "15 Puzzle",
             "description" : "The 15 puzzle consists in rearrange the squares in ascending order. To play click on the square you want to move. The game is made using HTML5 canvas and javascript.",
-            "href" : "http://vieiralucas.github.io/15-puzzle",
+            "href" : "http://vieiralucas.github.io/15puzzle",
             "img" : "images/15-puzzle.jpg"
         }
     ],
